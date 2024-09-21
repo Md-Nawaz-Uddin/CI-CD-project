@@ -1,38 +1,84 @@
-<form action="action_page.php">
-  <div class="container">
-    <h1>New user Register for DevOps Learning</h1>
-    <h2> Deployed by me --<h2>
-    <p>Please fill in this form to create an account.</p>
-    <hr>
-     
-    <label for="Name"><b>Enter Name</b></label>
-    <input type="text" placeholder="Enter Full Name" name="Name" id="Name" required>
-    <br>
-    
-    <label for="mobile"><b>Enter mobile</b></label>
-    <input type="text" placeholder="Enter moible number" name="mobile" id="mobile" required>
-    <br>
-
-    <label for="email"><b>Enter Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" id="email" required>
-    <br>
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-    <br>
-
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-    <hr>
-    <br>
-    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-    <button type="submit" class="registerbtn">Register</button>
-  </div>
-  <div class="container signin">
-    <p>Already have an account? <a href="#">Sign in</a>.</p>
-  </div>
-
-   <h1> Thankyou, Happy Learning </h1>
-
-  
-</form>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Advanced HTML Page</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>This is the home section of the page.</p>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>This section contains information about the website.</p>
+        </section>
+        <section id="services">
+            <h2>Services</h2>
+            <p>Details about the services offered can be found here.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Contact information goes here.</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 My Advanced HTML Page</p>
+    </footer>
+</body>
+</html>
